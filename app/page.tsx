@@ -36,13 +36,18 @@ export default function Home() {
         <div className="w-full max-w-md">
 
           <div className="text-center mb-6">
-            <div className="inline-flex items-center justify-center w-12 h-12 rounded-lg bg-teal-100 text-teal-700 text-xl mb-3">
-              ↪
-            </div>
-            <h2 className="text-3xl font-bold text-gray-900">
-              Login
-            </h2>
-          </div>
+  <Image
+    src="/logo-lci.png"
+    alt="Legal Client Intake"
+    width={220}
+    height={88}
+    priority
+    className="w-auto h-auto mx-auto mb-3"
+  />
+  <h2 className="text-3xl font-bold text-gray-900">
+    Login
+  </h2>
+</div>
 
           <form
             className="space-y-4"
