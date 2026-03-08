@@ -3,7 +3,7 @@ import { MetadataRoute } from "next";
 export default function manifest(): MetadataRoute.Manifest {
   return {
     name: "Legal Client Intake",
-    short_name: "LCI",
+    short_name: "LCI-APP",
     description: "Legal Client Intake Client Portal",
     start_url: "/",
     display: "standalone",
